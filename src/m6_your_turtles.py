@@ -28,3 +28,10 @@ Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
 #   Don't forget to COMMIT-and-PUSH when you are done with this module.
 #
 ########################################################################
+import rosegraphics as rg
+import math as m
+window=rg.Turtlewindow()
+harris=rg.SimpleTurtle('turtle')
+harris.pen=rg.Pen('pink',30)
+harris.forward(m.cos(3.14))
+
