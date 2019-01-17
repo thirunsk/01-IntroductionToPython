@@ -123,16 +123,15 @@ natasha.go_to(rg.Point(-100, 200))
 #      ** Nothing fancy is required. **
 #      ** A SUBSEQUENT exercise will let you show your creativity. **
 #
+#   As always, test by running the module.
+#
+###############################################################################
 boris.speed=10
 boris.right(220)
 boris.forward(50)
 boris.speed=1
 boris.right(20)
 boris.forward(400)
-#   As always, test by running the module.
-#
-###############################################################################
-
 ###############################################################################
 #
 # DONE: 5.
@@ -157,15 +156,15 @@ boris.forward(400)
 #      ** A SUBSEQUENT exercise will let you show your creativity. **
 #
 #   As always, test by running the module.
+
+
+###############################################################################
 oscar_1=rg.SimpleTurtle('turtle')
 oscar_1.pen=rg.Pen('blue',40)
 oscar_1.speed=7
 oscar_1.left(90)
 oscar_1.forward(90)
 oscar_1.go_to(rg.Point(100,100))
-
-
-###############################################################################
 
 ###############################################################################
 #
