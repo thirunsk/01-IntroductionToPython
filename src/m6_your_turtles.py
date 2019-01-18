@@ -10,7 +10,7 @@ Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
 ########################################################################
 
 ########################################################################
-# TODO: 2.
+# DONE: 2.
 #   You should have RUN the  m5e_loopy_turtles  module and READ its code.
 #   (Do so now if you have not already done so.)
 #
@@ -37,7 +37,7 @@ harris.pen = rg.Pen('hot pink', 30)
 harris.speed = 10
 for k in range(11):
     harris.draw_circle(100-k*20)
-    
+
 benny=rg.SimpleTurtle('turtle')
 benny.pen=rg.Pen('teal',15)
 benny.speed=4
