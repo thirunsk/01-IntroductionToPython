@@ -30,8 +30,20 @@ Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
 ########################################################################
 import rosegraphics as rg
 import math as m
-window=rg.Turtlewindow()
-harris=rg.SimpleTurtle('turtle')
-harris.pen=rg.Pen('pink',30)
-harris.forward(m.cos(3.14))
+window=rg.TurtleWindow()
 
+harris = rg.SimpleTurtle('turtle')
+harris.pen = rg.Pen('hot pink', 30)
+harris.speed = 10
+for k in range(11):
+    harris.draw_circle(100-k*20)
+    
+benny=rg.SimpleTurtle('turtle')
+benny.pen=rg.Pen('teal',15)
+benny.speed=4
+for k in range (5):
+    benny.forward(100)
+    benny.right(180-36)
+
+
+window.close_on_mouse_click()
